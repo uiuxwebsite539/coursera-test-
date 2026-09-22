@@ -1,1 +1,57 @@
-<h1>Witaj na mojej sreonie z kursu</h1>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona poprawina na nowo</title>
+
+    <style>
+        body {
+            background-color: #1e1e2f;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #00ff99;
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #00ff99;
+            color: #1e1e2f;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00cc7a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Witaj na mojej stronie!</h1>
+
+    <p>Uczę się programować i właśnie stworzyłem swoją pierwszą stronę.</p>
+
+    <button onclick="powitanie()">Kliknij mnie</button>
+
+    <script>
+        function powitanie() {
+            alert("Cześć! Dzięki za kliknięcie!");
+        }
+    </script>
+
+</body>
+</html>
